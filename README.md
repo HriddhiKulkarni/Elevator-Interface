@@ -35,6 +35,6 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 
 ### Contact
-©️ Hriddhi.Kulkarni@ttu.edu
+Copyright ©️ Hriddhi.Kulkarni@ttu.edu
 
 MS in CS, Texas Tech University
