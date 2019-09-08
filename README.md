@@ -34,5 +34,4 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 Hriddhi.Kulkarni@ttu.edu
 
 MS in CS
-
 Texas Tech University
