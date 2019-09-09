@@ -36,7 +36,7 @@ This elevator is from Rawls College of Business Administration, Texas Tech Unive
 •	The elevator door opens after it arrives at the current floor <br /> 
 •	User enters the lift <br /> 
 •	User has four options: <br /> 
-    -	Select destination floor on the touch screen panel <br /> 
+> > -	Select destination floor on the touch screen panel <br /> 
     -	Enter destination floor on the touch screen panel <br /> 
     -	Select destination floor on the button panel <br /> 
     -	In case of assistance or emergency, us the assistance option or emergency options on touch screen or button panel 
