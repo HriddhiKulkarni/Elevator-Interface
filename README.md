@@ -38,7 +38,6 @@ A best attempt has been made to have this design follow the Elevator standards.
     -	Enter destination floor on the touch screen panel <br /> 
     -	Select destination floor on the button panel <br /> 
     -	In case of assistance or emergency, us the assistance option or emergency options on touch screen or button panel 
-
 ### Case-2:
 •	User selects the down-arrow option on touch panel from outside the elevator and audio plays command “You’re currently on floor ‘number’ and have selected the option to go to lower floor” <br /> 
 •	For any assistance, select the Disability option <br /> 
