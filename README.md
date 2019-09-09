@@ -15,8 +15,8 @@ This elevator is from Rawls College of Business Administration, Texas Tech Unive
 * Upon pressing the button, one of the elevators opens the door and it’s hard to guess which one would open first when the button is pressed. 
 * Both the elevators have only one floor display sign to indicate on one of the corners, which would again be difficult – To verify  
 * The current floor number is visible, only when a user stands in close proximity to the elevator on top left and right corner.  
-> There are chances when a user goes too close and the elevator door might open suddenly, and the people inside and outside the elevator might collide. 
-> User has to look really high to read the floor number 
+> > There are chances when a user goes too close and the elevator door might open suddenly, and the people inside and outside the elevator might collide. 
+> > User has to look really high to read the floor number 
 * Doesn’t support features for people with disabilities 
 
 ## Common uses in an elevator:
@@ -37,7 +37,7 @@ This elevator is from Rawls College of Business Administration, Texas Tech Unive
 * User enters the lift  
 * User has four options: 
 * Select destination floor on the touch screen panel  
-> Enter destination floor on the touch screen panel 
+   > Enter destination floor on the touch screen panel 
 > Select destination floor on the button panel 
 > In case of assistance or emergency, us the assistance option or emergency options on touch screen or button panel 
 ### Case-2:
