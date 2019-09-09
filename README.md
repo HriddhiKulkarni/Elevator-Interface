@@ -3,6 +3,8 @@
 This interface is designed to ease the use of elevator, understand and facilitate the actions.  <br /> 
 A best attempt has been made to have this design follow the Elevator standards. 
 
+## Elevator example:
+This elevator is from Rawls College of Business Administration, Texas Tech University. 
 
 ## Design issues:
 •	There is only one button for both the elevators.<br /> 
