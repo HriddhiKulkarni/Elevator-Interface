@@ -15,10 +15,10 @@ Floor 1 :
 ![IMG_9649](https://user-images.githubusercontent.com/18117167/64580681-d372c480-d34c-11e9-9718-24d33406fb76.JPG)
 
 Left elevator:
-![IMG_9614](https://user-images.githubusercontent.com/18117167/64580802-5267fd00-d34d-11e9-8743-8c0b7d3bf014.JPG)
+![ezgif com-resize (1)](https://user-images.githubusercontent.com/18117167/64656433-08d2ed00-d3f5-11e9-929c-8b887538ae06.jpg)
 
 Right elevator:
-![IMG_9652](https://user-images.githubusercontent.com/18117167/64656072-ca88fe00-d3f3-11e9-955b-9f5c7b45f6c4.JPG)
+![ezgif com-resize](https://user-images.githubusercontent.com/18117167/64656204-53a03500-d3f4-11e9-82ab-4461340d0802.jpg)
 
 ## Control interface in operation:
 Left elevator: 
@@ -30,7 +30,6 @@ Left elevator:
 Right elevator:
 
 ![ezgif com-optimize (7)](https://user-images.githubusercontent.com/18117167/64656155-20f63c80-d3f4-11e9-9b71-7cfb21616522.gif)
-
 
 ![ezgif com-optimize (6)](https://user-images.githubusercontent.com/18117167/64627222-d99c8b80-d3b4-11e9-809c-19058eba05d2.gif)
 
