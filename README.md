@@ -1,6 +1,6 @@
 ## Welcome to The Elevator Interface 
-This interface is designed to ease the use of elevator, understand and facilitate the actions.  <br /> 
-A best attempt has been made to have this design follow the Elevator standards. 
+This interface is designed to ease the use of the elevator, understand and facilitate the actions.  <br /> 
+The best attempt has been made to have this design follow the Elevator standards. 
 
 ## Elevator location:
 This elevator is from Rawls College of Business Administration, Texas Tech University. 
@@ -29,8 +29,8 @@ Right elevator:
 
 ## Design issues:
 * There is only one button for both the elevators. 
-* Exact status of the current location of the elevator not evident from outside.
-* Both elevators have a different number of floors buttons. 
+* The exact status of the current location of the elevator not evident from outside.
+* Both elevators have a different number of floor buttons. 
 
 ## Reasons for bad design:
 * Upon pressing the button, one of the elevators opens the door and it’s hard to guess which one would open first when the button is pressed. 
@@ -40,7 +40,7 @@ Right elevator:
 * Doesn’t support features for people with disabilities 
 
 ## Common uses in an elevator:
-* Select the button in elevator control interface to reach the destination floor  
+* Select the button in the elevator control interface to reach the destination floor  
 * Choose the floor number or enter the floor number to go to the destination floor 
 * Open and close the elevator door button 
 
@@ -51,21 +51,21 @@ Right elevator:
 ## Interface review:
 ### Existing interface review with mistakes:
 Though the existing interface provides options like up and down arrow on the outer panel, that doesn't make it easier to use as only one control interface exists for two elevators
-The floor numbers are different in both elevators and it is an additional task, if a user enters the wrong elevator
+The floor numbers are different in both elevators and it is an additional task if a user enters the wrong elevator
 
 ### My interface:
 
 ## User interaction sequence of actions:
 ### Existing elevator:
-* User selects the up or down arrow from outside the elevator
-* The elevator arrives and user enters inside
-* User closes the door, if there is a time lag
-* User selects the destination floor option and selects door close option on the elevator control interface
+* The user selects the up or down arrow from outside the elevator
+* The elevator arrives and the user enters inside
+* User closes the door if there is a time lag
+* The user selects the destination floor option and selects the door close option on the elevator control interface
 * The user reaches the destination floor and steps out after the elevator door opens
 
 ### My design:
 ### Case-1:
-* User selects the up-arrow option on touch panel from outside the elevator and audio plays command “You’re currently on floor ‘number’ and have selected the option to go to upper floor” 
+* The user selects the up-arrow option on touch panel from outside the elevator and audio plays command “You’re currently on floor ‘number’ and have selected the option to go to upper floor” 
 * For any assistance, select the Disability option 
 * The elevator door opens after it arrives at the current floor  
 * User enters the lift  
