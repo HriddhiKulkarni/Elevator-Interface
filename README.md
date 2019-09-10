@@ -89,17 +89,23 @@ The floor numbers are different in both elevators and it is an additional task i
 
 ## How to use the elevator:
 ### Existing elevator:
-* Has up, down arrows
-* Has floor numbers as A, B, 1, 2, 3
-* Has emergency call and emergency alarm buttons
-* Has door open and close buttons
+* Outside control interface:
+  * Has up, down arrows indicating direction to use the elevator in
+* Inside control interface:
+  * Has floor numbers as A, B, 1, 2, 3 to reach the destionation floor
+  * Has emergency call and emergency alarm buttons
+  * Has door open and close buttons
 ### My elevator:
-* Touch panel:
-  * Select or enter floor number
-  * Select assistance, emergency call, emergency alarm, door open, door close options
-* Button panel: 
-  * Select floor number
-  * Select assistance, emergency call, emergency alarm, door open, door close options
+* Outside control interface:
+  * Has up or down arrow indicating direction to use the elevator in
+  * Has assistance option indicating any required assistance
+* Inside control interface:
+  * Touch panel:
+    * Select or enter floor number to reach the destionation floor
+    * Select assistance, emergency call, emergency alarm, door open, door close options
+  * Button panel: 
+    * Select floor number to reach the destionation floor
+    * Select assistance, emergency call, emergency alarm, door open, door close options
 
 ## Elevator providing feedback to user:
 ### Existing elevator:
@@ -108,11 +114,12 @@ The floor numbers are different in both elevators and it is an additional task i
 * Panel above elevator displays white color for up arrow and red color for down arrow along with audio
 ### My elevator:
 * Touch panel:
-  * Select or enter floor number
-  * Select assistance, emergency call, emergency alarm, door open, door close options
+  * 
+  * Select or enter floor number 
+  * Select 
 * Button panel: 
   * Select floor number
-  * Select assistance, emergency call, emergency alarm, door open, door close options
+  * Select 
 
 ## Suggestions:
 * Have separate outside touch panels for each elevator  
