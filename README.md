@@ -1,5 +1,4 @@
 ## Welcome to The Elevator Interface 
-
 This interface is designed to ease the use of elevator, understand and facilitate the actions.  <br /> 
 A best attempt has been made to have this design follow the Elevator standards. 
 
@@ -7,7 +6,6 @@ A best attempt has been made to have this design follow the Elevator standards.
 This elevator is from Rawls College of Business Administration, Texas Tech University. 
 
 ## Elevator and its control interface:
-
 Floor B:
 ![IMG_9607](https://user-images.githubusercontent.com/18117167/64580617-8c84cf00-d34c-11e9-94ee-e6b5a0c2a765.JPG)
 
@@ -22,31 +20,50 @@ Left elevator:
 Right elevator:
 ![IMG_9617](https://user-images.githubusercontent.com/18117167/64580966-f81b6c00-d34d-11e9-824c-22d21482ebe4.JPG)
 
+## Control interface in operation:
+![ezgif com-optimize](https://user-images.githubusercontent.com/18117167/64582663-ce654380-d353-11e9-80d2-fe7645166d14.gif)
+
+![ezgif com-optimize (1)](https://user-images.githubusercontent.com/18117167/64584892-3ae44080-d35c-11e9-864f-e9c00f106ada.gif)
+
+![ezgif com-optimize (2)](https://user-images.githubusercontent.com/18117167/64585030-c8279500-d35c-11e9-82a2-ee192569f53c.gif)
 
 ## Design issues:
 * There is only one button for both the elevators. 
-* No status of the current location of the elevator from outside.
+* Exact status of the current location of the elevator not evident from outside.
 * Both elevators have a different number of floors buttons. 
 
 ## Reasons for bad design:
 * Upon pressing the button, one of the elevators opens the door and it’s hard to guess which one would open first when the button is pressed. 
-* Both the elevators have only one floor display sign to indicate on one of the corners, which would again be difficult – To verify  
-* The current floor number is visible, only when a user stands in close proximity to the elevator on top left and right corner.  
-  * There are chances when a user goes too close and the elevator door might open suddenly, and the people inside and outside the elevator might collide.  
-  * User has to look really high to read the floor number 
+* The floor, the elevator is currently on, is not indicated
+  * A sign above the elevator displays white color once for one floor up and twice for two floors up 
+  * A sign above the elevator displays red color once for one floor down and twice for two floors down 
 * Doesn’t support features for people with disabilities 
 
 ## Common uses in an elevator:
-* Select the elevator touch panel button for the elevator to arrive at the current floor  
-* Choose the floor number button to go to the required floor 
+* Select the button in elevator control interface to reach the destination floor  
+* Choose the floor number or enter the floor number to go to the destination floor 
 * Open and close the elevator door button 
 
 ## Rare uses in an elevator:
 * Emergency call button  
 * Emergency alarm button
 
+## Interface review:
+### Existing interface review with mistakes:
+Though the existing interface provides options like up and down arrow on the outer panel, that doesn't make it easier to use as only one control interface exists for two elevators
+The floor numbers are different in both elevators and it is an additional task, if a user enters the wrong elevator
+
+### My interface:
 
 ## User interaction sequence of actions:
+### Existing elevator:
+* User selects the up or down arrow from outside the elevator
+* The elevator arrives and user enters inside
+* User closes the door, if there is a time lag
+* User selects the destination floor option and selects door close option on the elevator control interface
+* The user reaches the destination floor and steps out after the elevator door opens
+
+### My design:
 ### Case-1:
 * User selects the up-arrow option on touch panel from outside the elevator and audio plays command “You’re currently on floor ‘number’ and have selected the option to go to upper floor” 
 * For any assistance, select the Disability option 
@@ -67,6 +84,40 @@ Right elevator:
   * Enter destination floor on the touch screen panel  
   * Select destination floor on the button panel 
   * In case of assistance or emergency, us the assistance option or emergency options on touch screen or button panel 
+
+## How to use the elevator:
+### Existing elevator:
+* Has up, down arrows
+* Has floor numbers as A, B, 1, 2, 3
+* Has emergency call and emergency alarm buttons
+* Has door open and close buttons
+### My elevator:
+* Touch panel:
+  * Select or enter floor number
+  * Select assistance, emergency call, emergency alarm, door open, door close options
+* Button panel: 
+  * Select floor number
+  * Select assistance, emergency call, emergency alarm, door open, door close options
+
+## Elevator providing feedback to user:
+### Existing elevator:
+* Door opens upon pressing up or down arrows 
+* Door plays a 2-3 second audio after it opens or closes
+* Panel above elevator displays white color for up arrow and red color for down arrow
+### My elevator:
+* Touch panel:
+  * Select or enter floor number
+  * Select assistance, emergency call, emergency alarm, door open, door close options
+* Button panel: 
+  * Select floor number
+  * Select assistance, emergency call, emergency alarm, door open, door close options
+
+## Suggestions:
+* Have separate outside touch panels for each elevator  
+* View current floor number for the respective elevator on the touch panel along with other options  
+* Have an audio output 
+* Provide support for people with disabilities 
+* Provide support for people with claustrophobia by having a picture or design of numbers, alphabets on one wall of the elevator
 
 ## Design decisions:
 * Touch panel outside the elevator: 
@@ -92,12 +143,7 @@ Right elevator:
     * Emergency call, Emergency alarm
         
     
-## Suggestions:
-* Have separate outside touch panels for each elevator  
-* View current floor number for the respective elevator on the touch panel along with other options  
-* Have an audio output 
-* Provide support for people with disabilities 
-* Provide support for people with claustrophobia
+
 
 
 ## Contact
