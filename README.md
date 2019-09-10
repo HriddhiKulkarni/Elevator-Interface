@@ -32,7 +32,7 @@ Right elevator:
 ## Design issues:
 * There is only one button for both the elevators. 
 * The exact status of the current location of the elevator not evident from outside.
-* Both elevators have a different number of floor buttons. 
+* Both elevators have a different number of floor buttons.  
 
 ## Reasons for bad design:
 * Upon pressing the button, one of the elevators opens the door and it’s hard to guess which one would open first when the button is pressed. 
