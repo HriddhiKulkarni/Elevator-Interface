@@ -27,6 +27,8 @@ Right elevator:
 
 ![ezgif com-optimize (2)](https://user-images.githubusercontent.com/18117167/64585030-c8279500-d35c-11e9-82a2-ee192569f53c.gif)
 
+![ezgif com-optimize (3)](https://user-images.githubusercontent.com/18117167/64586401-c4e2d800-d361-11e9-8600-bb3b6997d685.gif)
+
 ## Design issues:
 * There is only one button for both the elevators. 
 * The exact status of the current location of the elevator not evident from outside.
@@ -103,7 +105,7 @@ The floor numbers are different in both elevators and it is an additional task i
 ### Existing elevator:
 * Door opens upon pressing up or down arrows 
 * Door plays a 2-3 second audio after it opens or closes
-* Panel above elevator displays white color for up arrow and red color for down arrow
+* Panel above elevator displays white color for up arrow and red color for down arrow along with audio
 ### My elevator:
 * Touch panel:
   * Select or enter floor number
@@ -141,10 +143,6 @@ The floor numbers are different in both elevators and it is an additional task i
     * Assistance option
     * Close doors, open doors  
     * Emergency call, Emergency alarm
-        
-    
-
-
 
 ## Contact
 Copyright ©️ Hriddhi.Kulkarni@ttu.edu <br /> 
