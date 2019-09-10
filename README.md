@@ -6,6 +6,23 @@ A best attempt has been made to have this design follow the Elevator standards.
 ## Elevator location:
 This elevator is from Rawls College of Business Administration, Texas Tech University. 
 
+## Elevator and its control interface:
+
+Floor B:
+![IMG_9607](https://user-images.githubusercontent.com/18117167/64580617-8c84cf00-d34c-11e9-94ee-e6b5a0c2a765.JPG)
+
+Floor 1 :
+![IMG_9650](https://user-images.githubusercontent.com/18117167/64580547-5c3d3080-d34c-11e9-9a28-87f01e350a91.JPG)
+
+![IMG_9649](https://user-images.githubusercontent.com/18117167/64580681-d372c480-d34c-11e9-9718-24d33406fb76.JPG)
+
+Left elevator:
+![IMG_9614](https://user-images.githubusercontent.com/18117167/64580802-5267fd00-d34d-11e9-8743-8c0b7d3bf014.JPG)
+
+Right elevator:
+![IMG_9617](https://user-images.githubusercontent.com/18117167/64580966-f81b6c00-d34d-11e9-824c-22d21482ebe4.JPG)
+
+
 ## Design issues:
 * There is only one button for both the elevators. 
 * No status of the current location of the elevator from outside.
@@ -37,7 +54,7 @@ This elevator is from Rawls College of Business Administration, Texas Tech Unive
 * User enters the lift  
 * User has four options: 
 * Select destination floor on the touch screen panel  
-   > Enter destination floor on the touch screen panel 
+> Enter destination floor on the touch screen panel 
 > Select destination floor on the button panel 
 > In case of assistance or emergency, us the assistance option or emergency options on touch screen or button panel 
 ### Case-2:
