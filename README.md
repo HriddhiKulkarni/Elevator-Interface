@@ -7,7 +7,7 @@ This elevator is from Rawls College of Business Administration, Texas Tech Unive
 
 ## Elevator and its control interface:
 Floor B:
-![IMG_9607](https://user-images.githubusercontent.com/18117167/64580617-8c84cf00-d34c-11e9-94ee-e6b5a0c2a765.JPG)
+![IMG_9658](https://user-images.githubusercontent.com/18117167/64655797-02dc0c80-d3f3-11e9-9ea9-0ca215344613.JPG)
 
 Floor 1 :
 ![IMG_9650](https://user-images.githubusercontent.com/18117167/64580547-5c3d3080-d34c-11e9-9a28-87f01e350a91.JPG)
@@ -18,15 +18,23 @@ Left elevator:
 ![IMG_9614](https://user-images.githubusercontent.com/18117167/64580802-5267fd00-d34d-11e9-8743-8c0b7d3bf014.JPG)
 
 Right elevator:
-![IMG_9617](https://user-images.githubusercontent.com/18117167/64580966-f81b6c00-d34d-11e9-824c-22d21482ebe4.JPG)
+![IMG_9652](https://user-images.githubusercontent.com/18117167/64656072-ca88fe00-d3f3-11e9-955b-9f5c7b45f6c4.JPG)
 
 ## Control interface in operation:
+Left elevator: 
+
 ![resize](https://user-images.githubusercontent.com/18117167/64627699-b7573d80-d3b5-11e9-97ef-daa6d726ec29.gif)
 
 ![ezgif com-optimize (5)](https://user-images.githubusercontent.com/18117167/64627078-a1954880-d3b4-11e9-9f24-1e3633976e51.gif)
 
+Right elevator:
+
+![ezgif com-optimize (7)](https://user-images.githubusercontent.com/18117167/64656155-20f63c80-d3f4-11e9-9b71-7cfb21616522.gif)
+
+
 ![ezgif com-optimize (6)](https://user-images.githubusercontent.com/18117167/64627222-d99c8b80-d3b4-11e9-809c-19058eba05d2.gif)
 
+Both elevators:
 ![ezgif com-optimize (3)](https://user-images.githubusercontent.com/18117167/64586401-c4e2d800-d361-11e9-8600-bb3b6997d685.gif)
 
 ## Design issues:
