@@ -21,7 +21,7 @@ Right elevator:
 ![IMG_9617](https://user-images.githubusercontent.com/18117167/64580966-f81b6c00-d34d-11e9-824c-22d21482ebe4.JPG)
 
 ## Control interface in operation:
-![ezgif com-optimize (4)](https://user-images.githubusercontent.com/18117167/64626938-5aa75300-d3b4-11e9-8c58-658945052bfa.gif)
+![resize](https://user-images.githubusercontent.com/18117167/64627699-b7573d80-d3b5-11e9-97ef-daa6d726ec29.gif)
 
 ![ezgif com-optimize (5)](https://user-images.githubusercontent.com/18117167/64627078-a1954880-d3b4-11e9-9f24-1e3633976e51.gif)
 
