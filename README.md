@@ -15,9 +15,11 @@ Floor 1 :
 ![IMG_9649](https://user-images.githubusercontent.com/18117167/64580681-d372c480-d34c-11e9-9718-24d33406fb76.JPG)
 
 Left elevator:
+
 ![ezgif com-resize (1)](https://user-images.githubusercontent.com/18117167/64656433-08d2ed00-d3f5-11e9-929c-8b887538ae06.jpg)
 
 Right elevator:
+
 ![ezgif com-resize](https://user-images.githubusercontent.com/18117167/64656204-53a03500-d3f4-11e9-82ab-4461340d0802.jpg)
 
 ## Control interface in operation:
@@ -34,6 +36,7 @@ Right elevator:
 ![ezgif com-optimize (6)](https://user-images.githubusercontent.com/18117167/64627222-d99c8b80-d3b4-11e9-809c-19058eba05d2.gif)
 
 Both elevators:
+
 ![ezgif com-optimize (3)](https://user-images.githubusercontent.com/18117167/64586401-c4e2d800-d361-11e9-8600-bb3b6997d685.gif)
 
 ## Design issues:
