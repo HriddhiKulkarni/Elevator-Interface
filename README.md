@@ -21,11 +21,11 @@ Right elevator:
 ![IMG_9617](https://user-images.githubusercontent.com/18117167/64580966-f81b6c00-d34d-11e9-824c-22d21482ebe4.JPG)
 
 ## Control interface in operation:
-![ezgif com-optimize](https://user-images.githubusercontent.com/18117167/64582663-ce654380-d353-11e9-80d2-fe7645166d14.gif)
+![ezgif com-optimize (4)](https://user-images.githubusercontent.com/18117167/64626938-5aa75300-d3b4-11e9-8c58-658945052bfa.gif)
 
-![ezgif com-optimize (1)](https://user-images.githubusercontent.com/18117167/64584892-3ae44080-d35c-11e9-864f-e9c00f106ada.gif)
+![ezgif com-optimize (5)](https://user-images.githubusercontent.com/18117167/64627078-a1954880-d3b4-11e9-9f24-1e3633976e51.gif)
 
-![ezgif com-optimize (2)](https://user-images.githubusercontent.com/18117167/64585030-c8279500-d35c-11e9-82a2-ee192569f53c.gif)
+![ezgif com-optimize (6)](https://user-images.githubusercontent.com/18117167/64627222-d99c8b80-d3b4-11e9-809c-19058eba05d2.gif)
 
 ![ezgif com-optimize (3)](https://user-images.githubusercontent.com/18117167/64586401-c4e2d800-d361-11e9-8600-bb3b6997d685.gif)
 
