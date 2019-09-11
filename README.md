@@ -76,24 +76,13 @@ The floor numbers are different in both elevators and it is an additional task i
 * The user reaches the destination floor and steps out after the elevator door opens
 
 ### My design:
-### Case-1:
-* The user selects the up-arrow option on touch panel from outside the elevator and audio plays command “You’re currently on floor ‘number’ and have selected the option to go to upper floor” 
+* The user selects the option on touch panel from outside the elevator and audio plays command “You’re currently on floor ‘number’” 
 * For any assistance, select the Disability option 
 * The elevator door opens after it arrives at the current floor  
 * User enters the lift  
 * User has four options: 
   * Select destination floor on the touch screen panel  
   * Enter destination floor on the touch screen panel 
-  * Select destination floor on the button panel 
-  * In case of assistance or emergency, us the assistance option or emergency options on touch screen or button panel 
-### Case-2:
-* User selects the down-arrow option on touch panel from outside the elevator and audio plays command “You’re currently on floor ‘number’ and have selected the option to go to lower floor”  
-* For any assistance, select the Disability option 
-* The elevator door opens after it arrives at the current floor
-* User enters the lift 
-* User has four options: 
-  * Select destination floor on the touch screen panel 
-  * Enter destination floor on the touch screen panel  
   * Select destination floor on the button panel 
   * In case of assistance or emergency, us the assistance option or emergency options on touch screen or button panel 
 
@@ -107,7 +96,7 @@ The floor numbers are different in both elevators and it is an additional task i
   * Has door open and close buttons
 ### My elevator:
 * Outside control interface:
-  * Has up or down arrow indicating direction to use the elevator in
+  * Has a touch option to call the elevator to the current floor
   * Has assistance option indicating any required assistance
 * Inside control interface:
   * Touch panel:
@@ -124,7 +113,7 @@ The floor numbers are different in both elevators and it is an additional task i
 * Panel above elevator displays white color for up arrow and red color for down arrow along with audio
 ### My elevator:
 * Touch panel:
-  * 
+  * Door opens upon selecting the touch icon or assistance option
   * Select or enter floor number 
   * Select 
 * Button panel: 
@@ -142,7 +131,7 @@ The floor numbers are different in both elevators and it is an additional task i
 * Touch panel outside the elevator: 
   * Elevator status display screen: to view the status of the elevator 
   * Audio output: for ease and extra assistance 
-  * Up and down arrows: to navigate the elevator 
+  * Touch option: to call the elevator 
   * Assistance option: for any further assistance 
 * Inside the elevator: 
   * Two extra Touch panels: 
