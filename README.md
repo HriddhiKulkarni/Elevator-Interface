@@ -47,8 +47,9 @@ Both elevators:
 ## Reasons for bad design:
 * Upon pressing the button, one of the elevators opens the door and it’s hard to guess which one would open first when the button is pressed. 
 * The floor, the elevator is currently on, is not indicated
-  * A sign above the elevator displays white color once for one floor up and twice for two floors up 
-  * A sign above the elevator displays red color once for one floor down and twice for two floors down 
+* These have been observed after using elevator a few times:
+  * Up arrow on the sign on top of the elevator displays white color once for one floor up and twice for two floors up 
+  * Down arrow on the sign on top of the elevator displays red color once for one floor down and twice for two floors down 
 * Doesn’t support features for people with disabilities 
 
 ## Common uses in an elevator:
@@ -76,8 +77,8 @@ The floor numbers are different in both elevators and it is an additional task i
 * The user reaches the destination floor and steps out after the elevator door opens
 
 ### My design:
-* The user selects the option on touch panel from outside the elevator and audio plays command “You’re currently on floor ‘number’” 
-* For any assistance, select the Disability option 
+* The user selects the button on touch panel from outside the elevator and audio plays command “You’re currently on floor ‘number’” 
+* For any assistance, select the Disability button 
 * The elevator door opens after it arrives at the current floor  
 * User enters the lift  
 * User has four options: 
@@ -108,9 +109,9 @@ The floor numbers are different in both elevators and it is an additional task i
 
 ## Elevator providing feedback to user:
 ### Existing elevator:
-* Door opens upon pressing up or down arrows 
+* Door opens upon pressing up or down arrow buttons
 * Door plays a 2-3 second audio after it opens or closes
-* Panel above elevator displays white color for up arrow and red color for down arrow along with audio
+* Panel above elevator displays white color for up arrow and red color for down arrow along with a beep sound
 ### My elevator:
 * Touch panel:
   * Door opens upon selecting the touch icon or assistance option
