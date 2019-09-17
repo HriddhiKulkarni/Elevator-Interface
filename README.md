@@ -81,11 +81,8 @@ The floor numbers are different in both elevators and it is an additional task i
 * For any assistance, select the Disability button 
 * The elevator door opens after it arrives at the current floor  
 * User enters the lift  
-* User has four options: 
-  * Select destination floor on the touch screen panel  
-  * Enter destination floor on the touch screen panel 
-  * Select destination floor on the button panel 
-  * In case of assistance or emergency, us the assistance option or emergency options on touch screen or button panel 
+* User selects destination floor on the touch screen panel  
+* In case of assistance or emergency, us the assistance option or emergency options on touch screen 
 
 ## How to use the elevator:
 ### Existing elevator:
@@ -103,9 +100,6 @@ The floor numbers are different in both elevators and it is an additional task i
   * Touch panel:
     * Select or enter floor number to reach the destionation floor
     * Select assistance, emergency call, emergency alarm, door open, door close options
-  * Button panel: 
-    * Select floor number to reach the destionation floor
-    * Select assistance, emergency call, emergency alarm, door open, door close options
 
 ## Elevator providing feedback to user:
 ### Existing elevator:
@@ -116,9 +110,6 @@ The floor numbers are different in both elevators and it is an additional task i
 * Touch panel:
   * Door opens upon selecting the touch icon or assistance option
   * Select or enter floor number 
-  * Select 
-* Button panel: 
-  * Select floor number
   * Select 
 
 ## Suggestions:
@@ -139,16 +130,11 @@ The floor numbers are different in both elevators and it is an additional task i
     * Elevator floor number status display on two front panels of elevator 
   * Main Touch panel:  
     * Description of elevator number, capacity(lbs.), no. of people it can accommodate 
-    * Date, time and current temperature 
+    * Current date and time 
     * Elevator status, floor numbers  
-    * Choose destination floor, Enter destination floor 
+    * Choose destination floor
     * Assistance option
     * Close doors, open doors 
-    * Emergency call, Emergency alarm
-  * Button panel: 
-    * Floor numbers 
-    * Assistance option
-    * Close doors, open doors  
     * Emergency call, Emergency alarm
 
 ## Contact
