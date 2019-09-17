@@ -126,7 +126,7 @@ The floor numbers are different in both elevators and it is an additional task i
   * Touch option: to call the elevator 
   * Assistance option: for any further assistance 
 * Inside the elevator: 
-  * Two floor level screen panels: 
+  * Two floor level screen panels:  
     * Elevator floor number status display on two front panels of elevator 
   * Main Touch panel:  
     * Description of elevator number, capacity(lbs.), no. of people it can accommodate 
