@@ -49,7 +49,7 @@ Both elevators:
 * The floor, the elevator is currently on, is not indicated
 * These have been observed after using elevator a few times:
   * Up arrow on the sign on top of the elevator displays white color once for one floor up and twice for two floors up 
-  * Down arrow on the sign on top of the elevator displays red color once for one floor down and twice for two floors down 
+  * Down arrow on the sign on top of the elevator displays red color once for one floor down and twice for two floors down
 * Doesn’t support features for people with disabilities 
 
 ## Common uses in an elevator:
