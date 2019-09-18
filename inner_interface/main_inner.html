@@ -193,7 +193,7 @@
 		<div id="desc">
 			<center>
 			<b><u>Information</u></b> <br/>
-			Elevator floor no. <br/>
+			Elevator no. 1<br/>
 			Capacity: 2000 lbs
 			</center>
 		</div>
@@ -251,109 +251,106 @@
 	// Date 
 	var today = new Date();  
     document.getElementById('date_time').innerHTML=today.toString();  
-    i = 0;
+    var current_floor_up = 1;
+    var current_floor = 4;
+    var current_floor_down = 3;
+	var led_disp = ["url('images/one.png')", "url('images/two.png')", "url('images/three.png')", "url('images/four.png')"];
 
     // Elevator display
-    var memory_arr = [];
-    var end = 0;
-    var start = 0;
-    var current_floor = 4;
-    var sorted_memory = [];
-    var epos;
-    var spos;
-    var led_disp = ["url('images/one.png')", "url('images/two.png')", "url('images/three.png')", "url('images/four.png')"];
-
+    
     function memory(x)
     {
-    	if(x==1)
+    	// alert(x);
+    	if(x!=current_floor)
     	{
-    		document.getElementById("one_button").style.backgroundImage = "url('images/one_button_active.png')";
-    		document.getElementById("one_button").disabled = true; 
+    	// alert("in if");
+	    	if(x==1)
+	    	{
+	    		document.getElementById("one_button").style.backgroundImage = "url('images/one_button_active.png')";
+	    	}
+	    	else if(x==2)
+	    	{
+	    		document.getElementById("two_button").style.backgroundImage = "url('images/two_button_active.png')";
+	    	}
+	    	else if(x==3)
+	    	{
+	    		document.getElementById("three_button").style.backgroundImage = "url('images/three_button_active.png')";
+	    	}
+	    	else
+	    	{
+	    		document.getElementById("four_button").style.backgroundImage = "url('images/four_button_active.png')";
+	    	}
 
-    	}
-    	else if(x==2)
-    	{
-    		document.getElementById("two_button").style.backgroundImage = "url('images/two_button_active.png')";
-    		document.getElementById("two_button").disabled = true; 
-    	}
-    	else if(x==3)
-    	{
-    		document.getElementById("three_button").style.backgroundImage = "url('images/three_button_active.png')";
-    		document.getElementById("three_button").disabled = true; 
-    	}
-    	else{
-    		document.getElementById("four_button").style.backgroundImage = "url('images/four_button_active.png')";
-    		document.getElementById("four_button").disabled = true; 
-    	}
-    	if((!memory_arr.includes(x)) && (x!=current_floor))
-    	{
-    	memory_arr[i] = x;
-    	i = i+1;
-    	alert(x);
-    	end = x;
-    	alert(memory_arr);
-    	sorted_memory = memory_arr.sort();
-    	alert("sorted"+sorted_memory);
-    	alert("end"+end);
-    	spos = sorted_memory[0];
-    	alert("spos"+ spos);
-    	epos = sorted_memory[sorted_memory.length-1];
-    	alert("epos"+ epos);
-
-    	move();
-        }
+		      	if(x>current_floor_up)
+		      	{
+		    		var myVar = setInterval(myTimer, 2000);
+		    	 
+				 	function myTimer() {
+				
+				  	document.getElementById("current_number").style.backgroundImage = led_disp[current_floor_up-1];
+				  	document.getElementById("up_arrow").style.backgroundImage = "url('images/up_active.png')";
+				  	current_floor_up = current_floor_up+1;
+				  	
+				  	if(current_floor_up == x+1)
+				  	{
+				  		clearInterval(myVar);
+				  		document.getElementById("up_arrow").style.backgroundImage = "url('images/up_inactive.png')";
+				  		document.getElementById("door_open").style.backgroundImage = "url('images/door_open_active.png')";
+				  		//document.getElementById("current_number").style.backgroundImage = "url('images/background.png')"; 
+				  		document.getElementById("three_button").style.backgroundImage = "url('images/three_button_inactive.png')";
+				  	}
+				  }
+		      	}
+		      	else
+		      	{
+		         	//alert("down");
+		    		var myVar = setInterval(myTimer, 2000);
+		    	 
+				 	function myTimer() {
+				
+				  	document.getElementById("current_number").style.backgroundImage = led_disp[current_floor_down+1];
+				  	document.getElementById("down_arrow").style.backgroundImage = "url('images/down_active.png')";
+				  	current_floor_down = current_floor_down-1;
+				  	
+				  	if(current_floor_down == x-3)
+				  	{
+				  		clearInterval(myVar);
+				  		document.getElementById("down_arrow").style.backgroundImage = "url('images/down_inactive.png')";
+				  		document.getElementById("door_open").style.backgroundImage = "url('images/door_open_active.png')";
+				  		//document.getElementById("current_number").style.backgroundImage = "url('images/background.png')"; 
+				  		document.getElementById("one_button").style.backgroundImage = "url('images/one_button_inactive.png')";
+				  	}
+				  }
+		      	}
+		}
     }
 
-    function move()
-    {
-    	if((current_floor-epos)<= (current_floor-spos))
-    	{
-    		var flag = 0;
-    		alert("down"+epos);
-    		if(flag==0)
-    		{
-    		var myVar = setInterval(myTimer, 2000);
-    	  }
+	// open doors
+	function open_door()
+	{
+		document.getElementById("door_open").style.backgroundImage = "url('images/door_open_active.png')";
+	}
 
-		 	function myTimer() { 
-		 
-		  	document.getElementById("current_number").style.backgroundImage = led_disp[current_floor-1];
-		  	document.getElementById("down_arrow").style.backgroundImage = "url('images/down_active.png')";
+	// close doors
+	function close_door()
+	{
 
-		  	current_floor = current_floor-1;
-		  	alert("current_floor"+current_floor+"epos"+epos);
-		  	if(current_floor == epos-1)
-		  	{
-		  		clearInterval(myVar);
-		  		document.getElementById("down_arrow").style.backgroundImage = "url('images/down_inactive.png')";
-		  		document.getElementById("door_open").style.backgroundImage = "url('images/door_open_active.png')";
-		  	}
-		  }
-		  
-     }
-    	else{
-    		alert("up");
-    		var flag = 0;
-    		alert("up"+spos);
-    		if(flag==0)
-    		{
-    		var myVar = setInterval(myTimer, 2000);
-    	  }
+		document.getElementById("door_close").style.backgroundImage = "url('images/door_close_active.png')";
+	}
 
-		 	function myTimer() { 
-		 
-		  	document.getElementById("current_number").style.backgroundImage = led_disp[current_floor+1];
-		  	current_floor = current_floor+1;
-		  	alert("current_floor"+current_floor+"spos"+spos);
-		  	if(current_floor == spos+1)
-		  	{
-		  		clearInterval(myVar);
-		  	}
-		  }
-		  
-    	}
-    }
+	// press alarm
+	function press_alarm()
+	{
 
+		document.getElementById("alarm").style.backgroundImage = "url('images/alarm_active.png')";
+	}
+
+	// press call
+	function press_call()
+	{
+
+		document.getElementById("call").style.backgroundImage = "url('images/call_active.png')";
+	}
 	
 </script>
 
