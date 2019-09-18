@@ -108,9 +108,9 @@ The floor numbers are different in both elevators and it is an additional task i
 * Panel above elevator displays white color for up arrow and red color for down arrow along with a beep sound
 ### My elevator:
 * Touch panel:
-  * Door opens upon selecting the touch icon or assistance option
-  * Select or enter floor number 
-  * Select 
+  * Door opens upon selecting the touch icon 
+  * Select the floor number 
+  * Upon reaching destination the door opens 
 
 ## Suggestions:
 * Have separate outside touch panels for each elevator  
@@ -129,15 +129,13 @@ The floor numbers are different in both elevators and it is an additional task i
   * Two floor level screen panels:  
     * Elevator floor number status display on two front panels of elevator 
   * Main Touch panel:  
-    * Description of elevator number, capacity(lbs.), no. of people it can accommodate 
+    * Description of elevator number, capacity(lbs.)
     * Current date and time 
     * Elevator status, floor numbers  
     * Choose destination floor
-    * Assistance option
     * Close doors, open doors 
     * Emergency call, Emergency alarm
 
 ## Contact
 Copyright ©️ Hriddhi.Kulkarni@ttu.edu <br /> 
 MS in CS, Texas Tech University
- 
