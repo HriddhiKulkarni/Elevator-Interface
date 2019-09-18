@@ -1,0 +1,360 @@
+<html>
+<head>
+	<style>
+#main{
+	border: 2px solid black;
+	background-color:#C3C5C4;
+	height: 78%;
+	width: 28%;
+	text-align: center;
+	margin-top: 5px;
+	padding: 8px;
+}
+#desc{
+	border: 1px solid black;
+	background-color: grey;
+	height: 10%;
+	width: 22%;
+	text-align: left;
+}
+#daily_info{
+	border: 1px solid black;
+	background-color: lightgrey;
+	margin-top: 5px;
+	height: 7%;
+	width: 20%;
+	font-family: calibri;
+	text-align: left;
+}
+#date_time{
+	float: left;
+	margin-left: 70px;
+	margin-right: 50px;
+}
+#led{
+	margin-top: 10px;
+	height: 15.6%;
+	width: 80%;
+	background-color: #00000F; 
+	margin-top: 1px;
+}
+#up_arrow{
+	float: left;
+	margin-top: 4px;
+	margin-left: 7.5px;
+	margin-right: 3px;
+	height: 90px;
+	width: 30%;
+	border: 0.5px solid grey;
+	background-image: url("images/up_inactive.png");
+	background-size: 100% 100%;
+}
+#current_number{
+	float: left;
+	margin-top: 4px;
+	margin-left: 3px;
+	margin-right: 3px;
+	height: 90px;
+    width: 30%;
+	border: 0.5px solid grey;
+    background-size: 100% 100%;
+}
+#down_arrow{
+	float: left;
+	margin-top: 4px;
+	margin-left: 3px;
+	margin-right: 7px;
+	height: 90px;
+	width: 30%;
+	border: 0.5px solid grey;
+	background-image: url("images/down_inactive.png");
+	background-size: 100% 100%;
+}
+#audio{
+	margin-top: 8px;
+	height: 13%;
+	width: 22%;
+	background-image: url("images/audio.png");
+	background-size: 100% 100%;
+	
+}
+#wrapper{
+	height: 30%;
+	width: 78%;
+	background-color: #C3C5C4;
+}
+#four_button
+{
+	float: left;
+	margin-top: 10px;
+	margin-left: 39%;
+	margin-right: 15%;
+	height: 50px;
+	width: 20%;
+	border: 1px solid black;
+	background-image: url("images/four_button_inactive.png");
+	background-size: 100% 100%;
+}
+#three_button
+{
+	float: left;
+	margin-top: 5px;
+	margin-left: 121px;
+	margin-right: 70px;
+	height: 50px;
+	width: 20%;
+	border: 1px solid black;
+	background-image: url("images/three_button_inactive.png");
+	background-size: 100% 100%;
+}
+#two_button
+{
+	float: left;
+	margin-top: 5px;
+	height: 50px;
+	width: 20%;
+	margin-left: 121px;
+	margin-right: 15px;
+	border: 1px solid black;
+	background-image: url("images/two_button_inactive.png");
+	background-size: 100% 100%;
+}
+#one_button
+{
+	float: left;
+	margin-top: 5px;
+	margin-left: 121px;
+	margin-right: 15px;
+	height: 50px;
+	width: 20%;
+	border: 1px solid black;
+	background-image: url("images/one_button_inactive.png");
+	background-size: 100% 100%;
+}
+#operations{
+	margin-top: 5px;
+	height: 21%;
+	width: 80%;
+}
+#door_open
+{
+	float: left;
+	margin-top: 12px;
+	margin-left: 60px;
+	margin-right: 15px;
+	height: 45px;
+	width: 20%;
+	border: 1px solid black;
+	background-image: url("images/door_open_inactive.png");
+	background-size: 100% 100%;
+}
+#door_close
+{
+    float: left;
+	margin-top: 12px;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 45px;
+	width: 20%;
+	border: 1px solid black;
+	background-image: url("images/door_close_inactive.png");
+	background-size: 100% 100%;
+}
+#alarm
+{
+	float: left;
+	margin-top: 12px;
+	height: 45px;
+	width: 20%;
+	margin-left: 60px;
+	margin-right: 15px;
+	border: 1px solid black;
+	background-image: url("images/alarm_inactive.png");
+	background-size: 100% 100%;
+}
+#call
+{
+	float: left;
+	margin-top: 12px;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 45px;
+	width: 20%;
+	border: 1px solid black;
+	background-image: url("images/call_inactive.png");
+	background-size: 100% 100%;
+}
+
+
+</style>
+</head>
+<body>
+	<center>
+		<div id="desc">
+			<center>
+			<b><u>Information</u></b> <br/>
+			Elevator floor no. <br/>
+			Capacity: 2000 lbs
+			</center>
+		</div>
+		<center>
+		<div id = "daily_info">
+			<center>
+			<div id="date_time">
+			</div>
+			</center> 
+		</div>
+	</center>
+	    <div id="main">
+		<center>
+		<div id="led">
+		
+			<div id="up_arrow">
+			</div>
+			<div id="current_number">
+			</div>
+			<div id="down_arrow">
+			</div>
+		
+		</div>
+		<center>
+		<div id="audio">
+		</div>
+	    </center>
+	    <div id="wrapper">
+	    	<div id="four_button" onclick="memory(4)">
+			</div>
+			<div id="three_button" onclick="memory(3)">
+			</div>
+			<div id="two_button" onclick="memory(2)">
+			</div>
+			<div id="one_button" onclick="memory(1)">
+			</div>
+	    </div>
+	    <div id="operations">
+	    	<div id="door_open" onclick="open_door()">
+			</div>
+			<div id="door_close" onclick="close_door()">
+			</div>
+			<div id="alarm" onclick="press_alarm()">
+			</div>
+			<div id="call" onclick="press_call()">
+			</div>
+	    </div>
+	    </center>
+	</div>
+</center>
+
+</body>
+
+<script>
+	// Date 
+	var today = new Date();  
+    document.getElementById('date_time').innerHTML=today.toString();  
+    i = 0;
+
+    // Elevator display
+    var memory_arr = [];
+    var end = 0;
+    var start = 0;
+    var current_floor = 4;
+    var sorted_memory = [];
+    var epos;
+    var spos;
+    var led_disp = ["url('images/one.png')", "url('images/two.png')", "url('images/three.png')", "url('images/four.png')"];
+
+    function memory(x)
+    {
+    	if(x==1)
+    	{
+    		document.getElementById("one_button").style.backgroundImage = "url('images/one_button_active.png')";
+    		document.getElementById("one_button").disabled = true; 
+
+    	}
+    	else if(x==2)
+    	{
+    		document.getElementById("two_button").style.backgroundImage = "url('images/two_button_active.png')";
+    		document.getElementById("two_button").disabled = true; 
+    	}
+    	else if(x==3)
+    	{
+    		document.getElementById("three_button").style.backgroundImage = "url('images/three_button_active.png')";
+    		document.getElementById("three_button").disabled = true; 
+    	}
+    	else{
+    		document.getElementById("four_button").style.backgroundImage = "url('images/four_button_active.png')";
+    		document.getElementById("four_button").disabled = true; 
+    	}
+    	if((!memory_arr.includes(x)) && (x!=current_floor))
+    	{
+    	memory_arr[i] = x;
+    	i = i+1;
+    	alert(x);
+    	end = x;
+    	alert(memory_arr);
+    	sorted_memory = memory_arr.sort();
+    	alert("sorted"+sorted_memory);
+    	alert("end"+end);
+    	spos = sorted_memory[0];
+    	alert("spos"+ spos);
+    	epos = sorted_memory[sorted_memory.length-1];
+    	alert("epos"+ epos);
+
+    	move();
+        }
+    }
+
+    function move()
+    {
+    	if((current_floor-epos)<= (current_floor-spos))
+    	{
+    		var flag = 0;
+    		alert("down"+epos);
+    		if(flag==0)
+    		{
+    		var myVar = setInterval(myTimer, 2000);
+    	  }
+
+		 	function myTimer() { 
+		 
+		  	document.getElementById("current_number").style.backgroundImage = led_disp[current_floor-1];
+		  	document.getElementById("down_arrow").style.backgroundImage = "url('images/down_active.png')";
+
+		  	current_floor = current_floor-1;
+		  	alert("current_floor"+current_floor+"epos"+epos);
+		  	if(current_floor == epos-1)
+		  	{
+		  		clearInterval(myVar);
+		  		document.getElementById("down_arrow").style.backgroundImage = "url('images/down_inactive.png')";
+		  		document.getElementById("door_open").style.backgroundImage = "url('images/door_open_active.png')";
+		  	}
+		  }
+		  
+     }
+    	else{
+    		alert("up");
+    		var flag = 0;
+    		alert("up"+spos);
+    		if(flag==0)
+    		{
+    		var myVar = setInterval(myTimer, 2000);
+    	  }
+
+		 	function myTimer() { 
+		 
+		  	document.getElementById("current_number").style.backgroundImage = led_disp[current_floor+1];
+		  	current_floor = current_floor+1;
+		  	alert("current_floor"+current_floor+"spos"+spos);
+		  	if(current_floor == spos+1)
+		  	{
+		  		clearInterval(myVar);
+		  	}
+		  }
+		  
+    	}
+    }
+
+	
+</script>
+
+</html>
