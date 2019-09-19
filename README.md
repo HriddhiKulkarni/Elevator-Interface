@@ -1,7 +1,8 @@
-## Welcome to The Elevator Interface 
+### Welcome to The Elevator Interface 
 This interface is designed to ease the use of the elevator, understand and facilitate the actions.  <br /> 
 The best attempt has been made to have this design follow the Elevator standards. 
 
+### Getting C:
 ## Elevator location:
 This elevator is from Rawls College of Business Administration, Texas Tech University. 
 
@@ -52,6 +53,7 @@ Both elevators:
   * Down arrow on the sign on top of the elevator displays red color once for one floor down and twice for two floors down
 * Doesn’t support features for people with disabilities 
 
+### Getting B:
 ## Common uses in an elevator:
 * Select the button in the elevator control interface to reach the destination floor  
 * Choose the floor number or enter the floor number to go to the destination floor 
@@ -119,6 +121,14 @@ The floor numbers are different in both elevators and it is an additional task i
 * Provide support for people with disabilities 
 * Provide support for people with claustrophobia by having a picture or design of numbers, alphabets on one wall of the elevator
 
+## Sketch:
+![IMG_9676](https://user-images.githubusercontent.com/18117167/65201002-909ca500-da4e-11e9-9197-7061522e6570.jpg)
+
+![IMG_9677](https://user-images.githubusercontent.com/18117167/65201058-ca6dab80-da4e-11e9-8d01-7c2e2539b2ec.jpg)
+
+![IMG_9678](https://user-images.githubusercontent.com/18117167/65201068-d3f71380-da4e-11e9-95bb-3de71ebf60aa.jpg)
+
+
 ## Design decisions:
 * Touch panel outside the elevator: 
   * Elevator status display screen: to view the status of the elevator 
@@ -135,6 +145,9 @@ The floor numbers are different in both elevators and it is an additional task i
     * Choose destination floor
     * Close doors, open doors 
     * Emergency call, Emergency alarm
+    
+
+### Getting A:
 
 ## Contact
 Copyright ©️ Hriddhi.Kulkarni@ttu.edu <br /> 
