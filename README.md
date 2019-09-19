@@ -8,7 +8,7 @@ The best attempt has been made to have this design follow the Elevator standards
 
 [GitHub repository](https://github.com/HriddhiKulkarni/hw1.30.Kulkarni)
 
-[Demo outside interface](https://hriddhikulkarni.github.io/TheElevatorInterface/outer_interface/main_outer.html)
+[Demo outside interface](https://hriddhikulkarni.github.io/hw1.30.Kulkarni/outer_interface/main_outer.html)
 
 [Demo inside interface](https://hriddhikulkarni.github.io/hw1.30.Kulkarni/inner_interface/main_inner.html)
 
