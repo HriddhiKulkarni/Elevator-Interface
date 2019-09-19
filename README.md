@@ -84,10 +84,11 @@ Both elevators:
 ## Interface review:
 ### Existing interface review with mistakes:
 Though the existing interface provides options like up and down arrow on the outer panel, that doesn't make it easier to use as only one control interface exists for two elevators
+
 The floor numbers are different in both elevators and it is an additional task if a user enters the wrong elevator
 
 ### My interface:
-The interface is easy to use and supports features for people with disabilities and claustrohobia as well
+The interface is easy to use and supports features for people with disabilities and claustrophobia as well
 ## User interaction sequence of actions:
 ### Existing elevator:
 * The user selects the up or down arrow from outside the elevator
@@ -97,12 +98,11 @@ The interface is easy to use and supports features for people with disabilities 
 * The user reaches the destination floor and steps out after the elevator door opens
 
 ### My design:
-* The user selects the button on touch panel from outside the elevator and audio plays command “You’re currently on floor ‘number’” 
-* For any assistance, select the Disability button 
+* The user selects the button on touch panel from outside the elevator 
 * The elevator door opens after it arrives at the current floor  
 * User enters the lift  
 * User selects destination floor on the touch screen panel  
-* In case of assistance or emergency, us the assistance option or emergency options on touch screen 
+* In case of emergency, us the emergency call or emergency alarm option on touch screen 
 
 ## How to use the elevator:
 ### Existing elevator:
@@ -173,13 +173,12 @@ The interface is easy to use and supports features for people with disabilities 
 # Getting A:
 Design for touch screen is implemented using HTML, CSS and Javascript
 
-The touch screen size for outer interface 
-* In pixels: 900 w x 1280 h
-* In code: 25% w x 70% h
-<br/>
-The touch screen size for inner interface 
-* In pixels: 1050 w x 1680 h
-* In code: 28% w x 78% h
+* The touch screen size for outer interface 
+   * In pixels: 900 w x 1280 h
+   * In code: 25% w x 70% h
+* The touch screen size for inner interface 
+   * In pixels: 1050 w x 1680 h
+   * In code: 28% w x 78% h
 
 The code is written in repository hw1.30.Kulkarni
 
