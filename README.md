@@ -168,9 +168,9 @@ The interface is easy to use and supports features for people with disabilities 
     
 
 # Getting A:
-Design for touch screen is implemented using HTML, CSS and Javascript
+Design for touch screen is implemented using HTML, CSS and Javascript <br/>
 The code is written in repository hw1.30.Kulkarni
-Files: <br/>
+Files: 
 1. outer-interface - code for outer interface
 2. inner-interface - code for inner interface
 3. README.md - readme file
