@@ -172,11 +172,11 @@ Design for touch screen is implemented using HTML, CSS and Javascript
 
 The code is written in repository hw1.30.Kulkarni
 
-Files: 
+Folders and files: 
 1. outer-interface - code for outer interface
 2. inner-interface - code for inner interface
 3. README.md - readme file
-4. '_config.yml' - jekyll-theme-slate
+4. _config.yml - jekyll-theme-slate
 
 ## Contact
 Copyright ©️ Hriddhi.Kulkarni@ttu.edu <br /> 
