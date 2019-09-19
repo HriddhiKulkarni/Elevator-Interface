@@ -34,7 +34,7 @@ Left elevator:
 
 ![ezgif com-resize (1)](https://user-images.githubusercontent.com/18117167/64656433-08d2ed00-d3f5-11e9-929c-8b887538ae06.jpg)
 
-Right elevator:
+Right elevator: 
 
 ![ezgif com-resize](https://user-images.githubusercontent.com/18117167/64656204-53a03500-d3f4-11e9-82ab-4461340d0802.jpg)
 
