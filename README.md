@@ -4,17 +4,17 @@ The best attempt has been made to have this design follow the Elevator standards
 
 # Links:
 
-[Presentation page](https://hriddhikulkarni.github.io/TheElevatorInterface/)
+[Presentation page](https://hriddhikulkarni.github.io/hw1.30.Kulkarni/)
 
-[GitHub repository](https://github.com/HriddhiKulkarni/TheElevatorInterface)
+[GitHub repository](https://github.com/HriddhiKulkarni/hw1.30.Kulkarni)
 
 [Demo outside interface](https://hriddhikulkarni.github.io/TheElevatorInterface/outer_interface/main_outer.html)
 
-[Demo inside interface](https://hriddhikulkarni.github.io/TheElevatorInterface/inner_interface/main_inner.html)
+[Demo inside interface](https://hriddhikulkarni.github.io/hw1.30.Kulkarni/inner_interface/main_inner.html)
 
-[Video - Inner interface 1](https://www.youtube.com/embed/FytJ4S71PN8)
+[Video - Inner interface 1](https://www.youtube.com/embed/P8XbzvmYyVw)
 
-[Video - Inner interface 2](https://www.youtube.com/embed/mVQKoZv__7A)
+[Video - Inner interface 2](https://www.youtube.com/embed/PKVIfYdjpFY)
 
 
 # Getting C:
@@ -84,7 +84,7 @@ Though the existing interface provides options like up and down arrow on the out
 The floor numbers are different in both elevators and it is an additional task if a user enters the wrong elevator
 
 ### My interface:
-
+The interface is easy to use and supports features for people with disabilities and claustrohobia as well
 ## User interaction sequence of actions:
 ### Existing elevator:
 * The user selects the up or down arrow from outside the elevator
@@ -155,14 +155,26 @@ The floor numbers are different in both elevators and it is an additional task i
     * Elevator floor number status display on two front panels of elevator 
   * Main Touch panel:  
     * Description of elevator number, capacity(lbs.)
-    * Current date and time 
+    * Current date, time and temperature
     * Elevator status, floor numbers  
-    * Choose destination floor
+    * User has three options: 
+      * Choose destination floor from touch panel - Audio plays after person enters the elevator, "You're on floor number ''. Please select your destination floor
+      * Enter destination floor from the "Enter the destination floor" panel - Audio plays after person enters the elevator, "You're on floor number ''. Please enter your destination floor
+      * Select destination floor from traditional button panel - Audio plays after person enters the elevator, "You're on floor number ''. Please enter your destination floor
+    * The assistance option in all three options traverses through all the floor options and calls the elevator - Audio plays when it is chosen as "Please keep pressing until your destination floor number is called" 
     * Close doors, open doors 
     * Emergency call, Emergency alarm
+    * Word and numbers on back view of elevator for people with claustrophobia
     
 
 # Getting A:
+Design for touch screen is implemented using HTML, CSS and Javascript
+The code is written in repository hw1.30.Kulkarni
+Files: <br/>
+1. outer-interface - code for outer interface
+2. inner-interface - code for inner interface
+3. README.md - readme file
+4. '_config.yml' - jekyll-theme-slate
 
 ## Contact
 Copyright ©️ Hriddhi.Kulkarni@ttu.edu <br /> 
