@@ -127,17 +127,19 @@ The interface is easy to use and supports features for people with disabilities 
 * Door plays a 2-3 second audio after it opens or closes
 * Panel above elevator displays white color for up arrow and red color for down arrow along with a beep sound
 ### My elevator:
-* Touch panel:
+* Outside elevator touch panel:
   * Door opens upon selecting the touch icon 
+  * The door opens upon reaching the current floor of user
+* Inside elevator touch panel:
   * Select the floor number 
-  * Upon reaching destination the door opens 
-
+  * Upon reaching the destination the door opens 
+  
 ## Suggestions:
 * Have separate outside touch panels for each elevator  
 * View current floor number for the respective elevator on the touch panel along with other options  
 * Have an audio output 
 * Provide support for people with disabilities 
-* Provide support for people with claustrophobia by having a picture or design of numbers, alphabets on one wall of the elevator
+* Provide support for people with claustrophobia by having a picture or design of numbers, alphabets on one of the walls of the elevator
 
 ## Sketch:
 ![IMG_9676](https://user-images.githubusercontent.com/18117167/65201002-909ca500-da4e-11e9-9197-7061522e6570.jpg)
@@ -156,9 +158,12 @@ The interface is easy to use and supports features for people with disabilities 
 * Inside the elevator: 
   * Two floor level screen panels:  
     * Elevator floor number status display on two front panels of elevator 
-  * Main Touch panel:  
+  * Elevator information box:
     * Description of elevator number, capacity(lbs.)
-    * Current date, time and temperature
+  * General information box:
+    * Current date, time
+    * Current temperature
+  * Main Touch panel:  
     * Elevator status, floor numbers  
     * User has three options: 
       * Choose destination floor from touch panel - Audio plays after person enters the elevator, "You're on floor number ''. Please select your destination floor
