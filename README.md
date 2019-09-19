@@ -1,8 +1,23 @@
-### Welcome to The Elevator Interface 
+# Welcome to The Elevator Interface 
 This interface is designed to ease the use of the elevator, understand and facilitate the actions.  <br /> 
 The best attempt has been made to have this design follow the Elevator standards. 
 
-### Getting C:
+# Links:
+
+[Presentation page](https://hriddhikulkarni.github.io/TheElevatorInterface/)
+
+[GitHub repository](https://github.com/HriddhiKulkarni/TheElevatorInterface)
+
+[Demo outside interface](https://hriddhikulkarni.github.io/TheElevatorInterface/outer_interface/main_outer.html)
+
+[Demo inside interface](https://hriddhikulkarni.github.io/TheElevatorInterface/inner_interface/main_inner.html)
+
+[Video - Inner interface 1](https://www.youtube.com/embed/FytJ4S71PN8)
+
+[Video - Inner interface 2](https://www.youtube.com/embed/mVQKoZv__7A)
+
+
+# Getting C:
 ## Elevator location:
 This elevator is from Rawls College of Business Administration, Texas Tech University. 
 
@@ -53,7 +68,7 @@ Both elevators:
   * Down arrow on the sign on top of the elevator displays red color once for one floor down and twice for two floors down
 * Doesn’t support features for people with disabilities 
 
-### Getting B:
+# Getting B:
 ## Common uses in an elevator:
 * Select the button in the elevator control interface to reach the destination floor  
 * Choose the floor number or enter the floor number to go to the destination floor 
@@ -147,7 +162,7 @@ The floor numbers are different in both elevators and it is an additional task i
     * Emergency call, Emergency alarm
     
 
-### Getting A:
+# Getting A:
 
 ## Contact
 Copyright ©️ Hriddhi.Kulkarni@ttu.edu <br /> 
