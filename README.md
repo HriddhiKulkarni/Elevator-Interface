@@ -8,14 +8,17 @@ The best attempt has been made to have this design follow the Elevator standards
 
 [GitHub repository](https://github.com/HriddhiKulkarni/hw1.30.Kulkarni)
 
-[Demo outside interface](https://hriddhikulkarni.github.io/hw1.30.Kulkarni/outer_interface/main_outer.html)
+[Demo - outside interface](https://hriddhikulkarni.github.io/hw1.30.Kulkarni/outer_interface/main_outer.html)
 
-[Demo inside interface](https://hriddhikulkarni.github.io/hw1.30.Kulkarni/inner_interface/main_inner.html)
+[Demo - inside interface](https://hriddhikulkarni.github.io/hw1.30.Kulkarni/inner_interface/main_inner.html)
 
 [Video - Inner interface 1](https://www.youtube.com/embed/P8XbzvmYyVw)
 
 [Video - Inner interface 2](https://www.youtube.com/embed/PKVIfYdjpFY)
 
+[Video - Outer interface 1](https://www.youtube.com/embed/9bVm5-2rbMo)
+
+[Video - Outer interface 2](https://www.youtube.com/embed/RXrJzUZwDGk)
 
 # Getting C:
 ## Elevator location:
@@ -169,6 +172,14 @@ The interface is easy to use and supports features for people with disabilities 
 
 # Getting A:
 Design for touch screen is implemented using HTML, CSS and Javascript
+
+The touch screen size for outer interface 
+* In pixels: 900 w x 1280 h
+* In code: 25% w x 70% h
+<br/>
+The touch screen size for inner interface 
+* In pixels: 1050 w x 1680 h
+* In code: 28% w x 78% h
 
 The code is written in repository hw1.30.Kulkarni
 
