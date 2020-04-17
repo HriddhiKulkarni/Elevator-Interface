@@ -4,7 +4,7 @@ The best attempt has been made to have this design follow the Elevator standards
 
 # Links:
 
-[Presentation page](https://hriddhikulkarni.github.io/hw1.30.Kulkarni/)
+[Presentation page](https://hriddhikulkarni.github.io/Elevator-Interface/)
 
 [GitHub repository](https://github.com/HriddhiKulkarni/hw1.30.Kulkarni)
 
