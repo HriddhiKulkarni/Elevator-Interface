@@ -6,7 +6,7 @@ The best attempt has been made to have this design follow the Elevator standards
 
 [Presentation page](https://hriddhikulkarni.github.io/Elevator-Interface/)
 
-[GitHub repository](https://github.com/HriddhiKulkarni/hw1.30.Kulkarni)
+[GitHub repository](https://github.com/HriddhiKulkarni/Elevator-Interface)
 
 [Demo - outside interface](https://hriddhikulkarni.github.io/Elevator-Interface/outer_interface/main_outer.html)
 
